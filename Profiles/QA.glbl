@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>QA</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'6267931bf2967f0ec89589e4'</initValue>
+      <name>ID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'6267931bf2967f0ec89589e4'</initValue>
+      <name>Value</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Amazon-UK'</initValue>
+      <name>Company_Name</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Validate Contact is added</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>71198b2d-6fe6-4827-aead-52274ec747e7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>433d959b-a494-4922-ace2-7b5aae57a37a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>433d959b-a494-4922-ace2-7b5aae57a37a</id>
+      <masked>false</masked>
+      <name>ID</name>
+   </variable>
+</TestCaseEntity>
