@@ -29,3 +29,5 @@ println('ID value is ' + value)
 
 WS.sendRequest(findTestObject('DelectContact', [('ID') : value]))
 
+
+
