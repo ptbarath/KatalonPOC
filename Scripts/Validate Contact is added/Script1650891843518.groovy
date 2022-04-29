@@ -20,11 +20,14 @@ import org.openqa.selenium.Keys as Keys
 response1 = WS.sendRequest(findTestObject('AddContact', [('ID') : '']))
 
 def slurper = new groovy.json.JsonSlurper()
+
 def result = slurper.parseText(response1.getResponseBodyContent())
 
 def value = result._id
 
-println("ID value is "+value)
+println('ID value is ' + value)
 
 WS.sendRequestAndVerify(findTestObject('GetContact', [('ID') : value]))
+
+WS.sendRequest(findTestObject('SampleGETRequest', [('ID') : GlobalVariable.ID]))
 

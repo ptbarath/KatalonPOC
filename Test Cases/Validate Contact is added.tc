@@ -12,7 +12,7 @@
       <variableId>433d959b-a494-4922-ace2-7b5aae57a37a</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>GlobalVariable.null</defaultValue>
       <description></description>
       <id>433d959b-a494-4922-ace2-7b5aae57a37a</id>
       <masked>false</masked>

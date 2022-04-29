@@ -70,9 +70,6 @@ WS.verifyResponseStatusCode(response, 204)
 assertThat(response.getStatusCode()).isEqualTo(204)
 
 
-
-
-
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
 </verificationScript>

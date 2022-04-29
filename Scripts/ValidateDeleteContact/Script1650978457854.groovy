@@ -17,3 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+response = WS.sendRequest(findTestObject('AddContact', [('ID') : '']))
+
+def slurper = new groovy.json.JsonSlurper()
+
+def result = slurper.parseText(response.getResponseBodyContent())
+
+def value = result._id
+
+println('ID value is ' + value)
+
+WS.sendRequest(findTestObject('DelectContact', [('ID') : value]))
+
